@@ -1,0 +1,20 @@
+<div id="slideshow">
+	<img src="/buildergirl.co.uk/wp-content/uploads/2023/09/image-2.jpeg">
+	<img src="/buildergirl.co.uk/wp-content/uploads/2023/09/image-1.jpeg" style="display: none">
+	<img src="/buildergirl.co.uk/wp-content/uploads/2023/09/image-3.jpeg" style="display: none">
+</div>
+<script>
+//var slideshow = document.getElementById('dave-home-page-slideshow');
+var stgs = JSON.parse($(".dave-home-page-image")[0].dataset.settings)
+var slides = stgs.background_slideshow_gallery 
+//var slideshow = $('a[data-id="441c676f"]');
+//var slides = slideshow.getElementsByTagName('img');
+var idx = 0;
+function changeSlide() {
+	//slides[idx].style.display = 'none';
+	//idx = (idx + 1) % slides.length;
+	//slides[idx].style.display = 'block';
+	
+}
+setInterval(changeSlide, 3000);
+</script>
