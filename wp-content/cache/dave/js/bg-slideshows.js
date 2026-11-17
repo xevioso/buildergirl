@@ -16,7 +16,7 @@ window.onload = function() {
 		enableLog: false      // Enable log messages to the console. Useful for debugging.
 	});
 	console.log('Running intro-slideshow...');
-	$('#slides').slideshow({
+	$('#intro-slides').slideshow({
 		slideshowId: "intro_slideshow",
 		randomize: false,      // Randomize the play order of the slides.
 		slideDuration: 3000,  // Duration of each induvidual slide.
