@@ -1,4 +1,3 @@
-
 $slide-distance: calc((4vw + 4vh + 4%)/3);
 
 $slide-distance-ms: 4%; // IE11 does not support calc() in transform:translate;
@@ -170,7 +169,7 @@ $zoom-scale: 1.15;
   left: -9999px;
 }
 
-#slideshow {
+.slideshow {
   position: fixed;
   overflow: hidden;
   top: 0;

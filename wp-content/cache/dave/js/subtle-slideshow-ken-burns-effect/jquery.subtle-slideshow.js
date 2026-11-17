@@ -31,7 +31,7 @@ $.fn.slideshow = function(options){
   }
 
   // Insert slideshow element
-  $('<div id="' + settings.slideshowId + '"></div>').insertBefore(slides);
+  $('<div id="' + settings.slideshowId + '" class="slideshow"></div>').insertBefore(slides);
 
   // Define variables
   var paused = false;
