@@ -8,6 +8,7 @@ $.fn.slideshow = function(options){
 
   var settings = $.extend({
     randomize: true,
+    height: "auto",
     slideDuration: 6000,
     fadeDuration: 1000,
     animate: true,
@@ -31,7 +32,7 @@ $.fn.slideshow = function(options){
   }
 
   // Insert slideshow element
-  $('<div id="' + settings.slideshowId + '" class="slideshow"></div>').insertBefore(slides);
+  $('<div id="' + settings.slideshowId + '" class="slideshow" style="height: '+ settings.height +'"></div>').insertBefore(slides);
 
   // Define variables
   var paused = false;
