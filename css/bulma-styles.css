@@ -3,7 +3,8 @@
     --bulma-family-primary: Montserrat, sans-serif;
     --bg-orange: rgb(255, 156, 1);
     --bg-blue: rgb(0, 132, 255);  /* "#0084FF" */
-    --bg-white: rgb(255, 255, 255)
+    --bg-black: rgb(0, 0, 0);
+    --bg-white: rgb(255, 255, 255);
 }
 /* .hero {
   --bulma-hero-body-padding: 1rem 0rem;
@@ -15,6 +16,11 @@
   --bulma-hero-gradient-s-offset: 10%;
   --bulma-hero-gradient-l-offset: 5%;
 } */
+
+.hero-head {
+   background-color: var(--bg-black);
+}
+ }
 
 .tabs {
     /* --bulma-tabs-link-active-border-bottom-color: "#0084FF"; */
@@ -42,4 +48,14 @@
   text-transform: uppercase;
   line-height: 1.1em;
   color: var( --bg-white);
+}
+.button.is-blue {
+  border: 0;
+  color: var(--bg-white);
+  background-color: var(--bg-blue);
+}
+.button.is-orange {
+  border: 0;
+  color: var(--bg-white);
+  background-color: var(--bg-orange);
 }
