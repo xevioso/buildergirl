@@ -1,0 +1,171 @@
+@-webkit-keyframes right {
+  from {
+    -webkit-transform: translateX(calc((-4vw + -4vh + -4%)/3)) rotate(0.01deg);
+    transform: translateX(calc((-4vw + -4vh + -4%)/3)) rotate(0.01deg);
+    -ms-transform: translateX(-4%);
+  }
+  to {
+    -webkit-transform: translateX(calc((4vw + 4vh + 4%)/3)) rotate(0.01deg);
+    transform: translateX(calc((4vw + 4vh + 4%)/3)) rotate(0.01deg);
+    -ms-transform: translateX(4%);
+  }
+}
+
+@keyframes right {
+  from {
+    -webkit-transform: translateX(calc((-4vw + -4vh + -4%)/3)) rotate(0.01deg);
+    transform: translateX(calc((-4vw + -4vh + -4%)/3)) rotate(0.01deg);
+    -ms-transform: translateX(-4%);
+  }
+  to {
+    -webkit-transform: translateX(calc((4vw + 4vh + 4%)/3)) rotate(0.01deg);
+    transform: translateX(calc((4vw + 4vh + 4%)/3)) rotate(0.01deg);
+    -ms-transform: translateX(4%);
+  }
+}
+
+@-webkit-keyframes left {
+  from {
+    -webkit-transform: translateX(calc((4vw + 4vh + 4%)/3)) rotate(0.01deg);
+    transform: translateX(calc((4vw + 4vh + 4%)/3)) rotate(0.01deg);
+    -ms-transform: translateX(4%);
+  }
+  to {
+    -webkit-transform: translateX(calc((-4vw + -4vh + -4%)/3)) rotate(0.01deg);
+    transform: translateX(calc((-4vw + -4vh + -4%)/3)) rotate(0.01deg);
+    -ms-transform: translateX(-4%);
+  }
+}
+
+@keyframes left {
+  from {
+    -webkit-transform: translateX(calc((4vw + 4vh + 4%)/3)) rotate(0.01deg);
+    transform: translateX(calc((4vw + 4vh + 4%)/3)) rotate(0.01deg);
+    -ms-transform: translateX(4%);
+  }
+  to {
+    -webkit-transform: translateX(calc((-4vw + -4vh + -4%)/3)) rotate(0.01deg);
+    transform: translateX(calc((-4vw + -4vh + -4%)/3)) rotate(0.01deg);
+    -ms-transform: translateX(-4%);
+  }
+}
+
+@-webkit-keyframes down {
+  from {
+    -webkit-transform: translateY(calc((-4vw + -4vh + -4%)/3)) rotate(0.01deg);
+    transform: translateY(calc((-4vw + -4vh + -4%)/3)) rotate(0.01deg);
+    -ms-transform: translateY(-4%);
+  }
+  to {
+    -webkit-transform: translateY(calc((4vw + 4vh + 4%)/3)) rotate(0.01deg);
+    transform: translateY(calc((4vw + 4vh + 4%)/3)) rotate(0.01deg);
+    -ms-transform: translateY(4%);
+  }
+}
+
+@keyframes down {
+  from {
+    -webkit-transform: translateY(calc((-4vw + -4vh + -4%)/3)) rotate(0.01deg);
+    transform: translateY(calc((-4vw + -4vh + -4%)/3)) rotate(0.01deg);
+    -ms-transform: translateY(-4%);
+  }
+  to {
+    -webkit-transform: translateY(calc((4vw + 4vh + 4%)/3)) rotate(0.01deg);
+    transform: translateY(calc((4vw + 4vh + 4%)/3)) rotate(0.01deg);
+    -ms-transform: translateY(4%);
+  }
+}
+
+@-webkit-keyframes up {
+  from {
+    -webkit-transform: translateY(calc((4vw + 4vh + 4%)/3)) rotate(0.01deg);
+    transform: translateY(calc((4vw + 4vh + 4%)/3)) rotate(0.01deg);
+    -ms-transform: translateY(4%);
+  }
+  to {
+    -webkit-transform: translateY(calc((-4vw + -4vh + -4%)/3)) rotate(0.01deg);
+    transform: translateY(calc((-4vw + -4vh + -4%)/3)) rotate(0.01deg);
+    -ms-transform: translateY(-4%);
+  }
+}
+
+@keyframes up {
+  from {
+    -webkit-transform: translateY(calc((4vw + 4vh + 4%)/3)) rotate(0.01deg);
+    transform: translateY(calc((4vw + 4vh + 4%)/3)) rotate(0.01deg);
+    -ms-transform: translateY(4%);
+  }
+  to {
+    -webkit-transform: translateY(calc((-4vw + -4vh + -4%)/3)) rotate(0.01deg);
+    transform: translateY(calc((-4vw + -4vh + -4%)/3)) rotate(0.01deg);
+    -ms-transform: translateY(-4%);
+  }
+}
+
+@-webkit-keyframes out {
+  from {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes out {
+  from {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@-webkit-keyframes in {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
+}
+
+@keyframes in {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
+}
+
+.bg-slideshow .bg-slide {
+	/* flex: 1;
+	height: 100%; */
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.bg-slideshow .bg-slide {
+	/* flex: 1;
+	height: 100%; */
+  background-size: contain;
+  background-position: center;
+}
+
+
+.slideshow img.animate.right, .slideshow .slide span.animate.left {
+  left: calc((-4vw + -4vh + -4%)/3);
+  right: calc((-4vw + -4vh + -4%)/3);
+}
