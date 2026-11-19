@@ -1,7 +1,22 @@
 @charset "UTF-8";
+:root {
+    --bg-orange: rgb(255, 156, 1);
+    --bg-blue: rgb(0, 132, 255);  /* "#0084FF" */
+}
+.hero {
+  --bulma-hero-body-padding: 1rem 0rem;
+  --bulma-hero-body-padding-tablet: 1rem 0rem;
+  --bulma-hero-body-padding-small: 1.5rem;
+  --bulma-hero-body-padding-medium: 1.5rem 0rem;
+  --bulma-hero-body-padding-large: 3rem 6rem;
+  --bulma-hero-gradient-h-offset: 5deg;
+  --bulma-hero-gradient-s-offset: 10%;
+  --bulma-hero-gradient-l-offset: 5%;
+}
+
 .tabs {
     /* --bulma-tabs-link-active-border-bottom-color: "#0084FF"; */
-    --bulma-tabs-link-active-border-bottom-color: rgb(0, 132, 255);
+    --bulma-tabs-link-active-border-bottom-color: var(--bg-blue);
     /* --bulma-tabs-link-active-border-bottom-color: hsl(209, 100%, 50%); */
 }
 .tabs li.is-active a {
@@ -13,5 +28,5 @@
 .tabs a:hover {
   border-bottom-color: var(--bulma-tabs-link-hover-border-bottom-color);
   color: var(--bulma-tabs-link-hover-color);
-  background-color: rgb(255, 156, 1);
+  background-color: var(--bg-orange);
 }
