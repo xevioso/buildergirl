@@ -1,7 +1,9 @@
 @charset "UTF-8";
 :root {
+    --bulma-family-primary: Montserrat, sans-serif;
     --bg-orange: rgb(255, 156, 1);
     --bg-blue: rgb(0, 132, 255);  /* "#0084FF" */
+    --bg-white: rgb(255, 255, 255)
 }
 /* .hero {
   --bulma-hero-body-padding: 1rem 0rem;
@@ -29,4 +31,15 @@
   border-bottom-color: var(--bulma-tabs-link-hover-border-bottom-color);
   color: var(--bulma-tabs-link-hover-color);
   background-color: var(--bg-orange);
+}
+.has-text-white {
+  color: var(--bg-white) !important;
+}
+.bg-banner-text {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.1em;
+  color: var( --bg-white);
 }
