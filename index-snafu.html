@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
+    </head>
+    <body>
+        <script src="js/htmx.min.js" 
+			integrity="sha384-2OatzQy1H+Zd/IIrjr1TcuDGqLXeHhbooAyJY1KdQMKnr4LZ22k31GBLdYKHmVjg"
+			crossorigin="anonymous">
+		</script>
+        <div id="index-caller" hx-trigger="load delay:0s" hx-get="html/index-with-elementor.html" hx-swap="innerHTML"></div>
+    </body>
+</html>
