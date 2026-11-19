@@ -3,7 +3,7 @@
     --bg-orange: rgb(255, 156, 1);
     --bg-blue: rgb(0, 132, 255);  /* "#0084FF" */
 }
-.hero {
+/* .hero {
   --bulma-hero-body-padding: 1rem 0rem;
   --bulma-hero-body-padding-tablet: 1rem 0rem;
   --bulma-hero-body-padding-small: 1.5rem;
@@ -12,7 +12,7 @@
   --bulma-hero-gradient-h-offset: 5deg;
   --bulma-hero-gradient-s-offset: 10%;
   --bulma-hero-gradient-l-offset: 5%;
-}
+} */
 
 .tabs {
     /* --bulma-tabs-link-active-border-bottom-color: "#0084FF"; */

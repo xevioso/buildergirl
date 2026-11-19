@@ -7,14 +7,14 @@
         <!-- <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/> -->
         <!-- <link rel="stylesheet" href="https://assets.ubuntu.com/v1/vanilla_framework_version_4.61.1.min.css" /> --><!--Import Google Icon Font-->
         <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css"> -->
-        <link rel="stylesheet" href="/css/bulma.css">
+        <link rel="stylesheet" href="/css/bulma.css">  <!-- https://bulmatemplates.github.io/bulma-templates/ -->
         <link rel="stylesheet" href="/css/bulma-styles.css">
         <link rel="stylesheet" href="/css/dave.css">
         <title>Builder Girl</title>
         
     </head>
     <body>
-        <section id="top-section" class="hero is-text is-medium is-bold">
+        <section id="top-section" class="hero is-text is-fullheight-with-navbar is-bold">
             <!-- is-text sets the background color to black: https://bulma.io/documentation/features/color-palettes/ -->
             <div class="hero-head">
                 <nav class="navbar">
@@ -54,21 +54,31 @@
                     </div>
                 </nav>
             </div>
-            <div class="hero-body">
-                <img src="/wp-content/uploads/2023/09/image-2.jpeg">
-                <div class="container has-text-centered">
+            <div class="hero-body" style = "background: url('/wp-content/uploads/2023/09/image-2.jpeg') no-repeat center; background-size: cover;">
+                <!--  -->
+                <!-- <div class="container is-fluid">
+                    <figure class="image">
+                        <img src="" alt="Photo of the BG team.">
+                    </figure>
+                    <div class="notification is-primary">
+                        This container is <strong>fluid</strong>: it will have a 32px gap on either
+                        side, on any viewport size.
+                    </div>
+                </div> -->
+                
+                <!-- <div class="container has-text-centered">
                     <h1 class="title">
                     The new standard in &lt;insert industry here&gt;
                     </h1>
                     <h2 class="subtitle">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </h2>
-                </div>
+                </div> -->
             </div>
         </section>
         
         
-    <!-- Scripts imported below this line. -->
+        <!-- Scripts imported below this line. -->
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="js/htmx.min.js" 
